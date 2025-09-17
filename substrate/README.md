@@ -19,7 +19,7 @@ This guide explains how to download, install, and run the **Substrate Cargo Cont
 
 ### 1. Download the specific node version
 
-We only specify `v.0.38.0` as this version uses `pallet-contracts`:
+We only specify `v0.38.0` as this version uses `pallet-contracts`:
 
 ```bash
 wget https://github.com/paritytech/substrate-contracts-node/releases/download/v0.38.0/substrate-contracts-node-linux.tar.gz
