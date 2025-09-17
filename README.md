@@ -72,11 +72,3 @@ Start the node in development mode:
 ```
 
 *(Use `--help` to view available options)*
-
----
-
-## 📚 Additional Tips
-
-* **Persistent Background Service**: Consider using `screen`, `tmux`, or a [systemd service](https://www.freedesktop.org/software/systemd/man/systemd.service.html) to keep the node running in the background.
-* **Upgrade**: To upgrade to a new version, repeat the steps with the updated `<VERSION>` and replace the existing binary.
-* **Documentation**: For more details, check out [Parity’s ink! documentation](https://use.ink) or the [ink-node releases](https://github.com/paritytech/ink-node/releases).
