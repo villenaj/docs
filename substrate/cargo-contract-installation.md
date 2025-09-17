@@ -1,6 +1,6 @@
-# 📦 Installing Cargo-Contract v5.0.3 and Creating an ink! Smart Contract
+# 📦 Installing Cargo-Contract v3.2.0 and Creating an ink! Smart Contract
 
-This guide explains how to install **cargo-contract v5.0.3** and create, test, and build an ink! smart contract.
+This guide explains how to install **cargo-contract v3.2.0** and create, test, and build an ink! smart contract.
 
 ---
 
@@ -12,12 +12,12 @@ This guide explains how to install **cargo-contract v5.0.3** and create, test, a
 
 ---
 
-## 🚀 Install Cargo-Contract v5.0.3
+## 🚀 Install Cargo-Contract v3.2.0
 
 Use the following command to install or upgrade cargo-contract:
 
 ```bash
-cargo install --force --locked cargo-contract --tag v5.0.3 --git https://github.com/use-ink/cargo-contract
+cargo install --force --locked cargo-contract --tag v3.2.0 --git https://github.com/use-ink/cargo-contract
 ```
 
 > The `--force` flag reinstalls even if it’s already installed. The `--locked` flag ensures dependency lockfiles are respected.
@@ -74,5 +74,5 @@ cargo contract build --release
 
 ## 📚 Additional Resources
 
-* [Cargo-Contract v5.0.3 Release Notes](https://github.com/use-ink/cargo-contract/releases/tag/v5.0.3)
+* [Cargo-Contract v3.2.0 Release Notes](https://github.com/use-ink/cargo-contract/releases/tag/v5.0.3)
 * [ink! Documentation](https://use.ink)
