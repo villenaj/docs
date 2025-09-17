@@ -19,10 +19,10 @@ This guide explains how to download, install, and run the **Substrate Cargo Cont
 
 ### 1. Download the specific node version
 
-Replace `<VERSION>` with the release version you want (e.g., `v0.38.0`):
+We only specify `v.0.38.0` as this version uses `pallet-contracts`:
 
 ```bash
-wget https://github.com/paritytech/ink-node/releases/download/<VERSION>/ink-node-linux.tar.gz
+wget https://github.com/paritytech/substrate-contracts-node/releases/download/v0.38.0/substrate-contracts-node-linux.tar.gz
 ```
 
 ---
@@ -32,7 +32,15 @@ wget https://github.com/paritytech/ink-node/releases/download/<VERSION>/ink-node
 Unpack the downloaded file:
 
 ```bash
-tar -xzf ink-node-linux.tar.gz
+tar -xzf substrate-contracts-node-linux.tar.gz
+```
+
+---
+
+### 3. Locate the directory
+
+```bash
+cd artifacts/substrate-contracts-node-linux
 ```
 
 ---
@@ -40,17 +48,7 @@ tar -xzf ink-node-linux.tar.gz
 ### 3. Make the binary executable
 
 ```bash
-chmod +x ink-node
-```
-
----
-
-### 4. (Optional) Move the binary to your PATH
-
-This allows running `ink-node` from any directory:
-
-```bash
-sudo mv ink-node /usr/local/bin/
+chmod +x substrate-contracts-node
 ```
 
 ---
@@ -60,7 +58,7 @@ sudo mv ink-node /usr/local/bin/
 Check the installed version:
 
 ```bash
-ink-node --version
+./substrate-contracts-node --version
 ```
 
 ---
@@ -70,13 +68,7 @@ ink-node --version
 Start the node in development mode:
 
 ```bash
-ink-node --dev
-```
-
-Or simply:
-
-```bash
-./ink-node
+./substrate-contracts-node
 ```
 
 *(Use `--help` to view available options)*
