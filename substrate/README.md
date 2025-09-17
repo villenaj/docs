@@ -22,6 +22,6 @@ Set up Cargo-Contract v5.0.3 and create your first ink! smart contract project.
 
 Install and configure the Substrate Cargo Contract Node for local development and testing.
 
-### 5. [Uploading Smart Contract to Polkadot-JS UI](https://github.com/villenaj/docs/blob/main/substrate/contract-deployment.md)
+### 5. [Uploading Smart Contract to Polkadot-JS Portal](https://github.com/villenaj/docs/blob/main/substrate/contract-deployment.md)
 
-Deploy and interact with your smart contract using the Polkadot-JS UI interface.
+Deploy and interact with your smart contract using the Polkadot-JS Portal interface.
