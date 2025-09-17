@@ -1,6 +1,6 @@
-# 📤 Uploading Smart Contract to Polkadot-JS UI
+# 📤 Uploading Smart Contract to Polkadot-JS Portal
 
-This guide explains how to upload and deploy a compiled ink! smart contract to **Polkadot-JS UI** using your local node.
+This guide explains how to upload and deploy a compiled ink! smart contract to **Polkadot-JS Portal** using your local node.
 
 ---
 
