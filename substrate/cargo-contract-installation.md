@@ -17,7 +17,7 @@ This guide explains how to install **cargo-contract v5.0.3** and create, test, a
 Use the following command to install or upgrade cargo-contract:
 
 ```bash
-cargo install --force --locked cargo-contract --version 5.0.3
+cargo install --force --locked cargo-contract --tag v5.0.3 --git https://github.com/use-ink/cargo-contract
 ```
 
 > The `--force` flag reinstalls even if it’s already installed. The `--locked` flag ensures dependency lockfiles are respected.
