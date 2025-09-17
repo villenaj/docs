@@ -24,7 +24,7 @@ This guide walks you through enabling **Windows Subsystem for Linux (WSL)** on W
 
 ---
 
-## 🌐 Install a Specific Linux Distribution
+## 🌐 Install a Specific Linux Distribution (Optional)
 
 * To view available distributions:
 
